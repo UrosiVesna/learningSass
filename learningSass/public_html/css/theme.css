@@ -10,25 +10,49 @@
   background-color: #bcc2cc;
 }
 
+.btn-default:hover {
+  background-color: #9fa8b6;
+}
+
 .btn-danger {
   background-color: red;
+}
+
+.btn-danger:hover {
+  background-color: #cc0000;
 }
 
 .btn-succes {
   background-color: yellowgreen;
 }
 
+.btn-succes:hover {
+  background-color: #7ba428;
+}
+
 .btn-warning {
   background-color: orange;
+}
+
+.btn-warning:hover {
+  background-color: #cc8400;
 }
 
 .btn-cyan {
   background-color: cyan;
 }
 
+.btn-cyan:hover {
+  background-color: #00cccc;
+}
+
 .btn-dark {
   background-color: #000;
   color: #ffffff;
+}
+
+.btn-dark:hover {
+  background-color: #262626;
 }
 
 /*
