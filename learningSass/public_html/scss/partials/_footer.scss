@@ -1,14 +1,56 @@
 $footer-bg: $purple;
 $footer-link-bg: $white;
+$footer-nav-font: $josefin;
+$footer-hover-font: $green;
 
 
 
 footer{
     padding: 30px 0;
     background-color: $footer-bg;
+    
+    nav{
+        ul{          
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 30px;
+                a{
+                    text-align: center;
+                    padding: 5px 0;
+                    display: block;
+                    color: $footer-link-bg;
+                    font-family: $footer-nav-font;
+                    font-size: 1.8rem;
+                    font-weight: bold;                  
+                    
+                    &:hover,
+                    &.active{
+                        color: $footer-hover-font;
+                    }
+                }     
+        }
+    }
+    
+    .copyright{
+        text-align: center;
+        color: $footer-link-bg;
+    }
 }
 
 
-footer a, footer p{
-    color: $footer-link-bg;
+
+@media(min-width: 768px){
+    footer{
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            li{
+                a{
+                    padding: 5px 40px;
+                }
+            }
+        }
+    }
 }
+

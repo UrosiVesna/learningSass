@@ -1,4 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@400;700&family=Rubik:wght@400;700&display=swap");
+.btn-default, .btn-danger, .btn-succes, .btn-warning, .btn-cyan, .btn-dark {
+  display: inline-block;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-default {
+  background-color: #bcc2cc;
+}
+
+.btn-danger {
+  background-color: red;
+}
+
+.btn-succes {
+  background-color: yellowgreen;
+}
+
+.btn-warning {
+  background-color: orange;
+}
+
+.btn-cyan {
+  background-color: cyan;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #ffffff;
+}
+
 /*
     font-family: 'Josefin Sans', sans-serif;
 
@@ -447,6 +479,10 @@ header nav ul li a:hover, header nav ul li a.active {
   background: #ffffff;
 }
 
+.service-section {
+  padding: 30px 0;
+}
+
 .comment-section {
   padding: 30px 0;
   background: #ffffff;
@@ -465,8 +501,40 @@ footer {
   background-color: #a83289;
 }
 
-footer a, footer p {
+footer nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+footer nav ul a {
+  text-align: center;
+  padding: 5px 0;
+  display: block;
   color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+footer nav ul a:hover, footer nav ul a.active {
+  color: #09e63d;
+}
+
+footer .copyright {
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer ul li a {
+    padding: 5px 40px;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */
