@@ -14,12 +14,8 @@ $tbody-hover-bg: darken($dark-gray, 15%)
         border-collapse: collapse;
         width: 100%;
         
-        .caption{
-            text-align: left;
-            font-style: italic;
-        }
 
-        th, td{
+        th,td{
             border: $table-border;
             padding: 10px 5px;
         }
@@ -30,8 +26,8 @@ $tbody-hover-bg: darken($dark-gray, 15%)
                 color: $thead-color;
                 border: $thead-border-color;
             }
-        }//thead
-        
+        }
+        //thead
 
         tbody{
             tr{
